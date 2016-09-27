@@ -1,5 +1,5 @@
 <?php 
-
+// ajout d'un comm pour test des git
 	session_name("bug_tracker_session");
 
 	session_start();
