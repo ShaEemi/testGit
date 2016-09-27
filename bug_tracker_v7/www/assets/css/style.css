@@ -1,0 +1,182 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.slider.fullscreen {
+     background-image: url('../../assets/img/bg_login.png');
+     background-size: cover;
+     background-position: 100%; 
+     overflow: auto;
+}
+
+.container {
+/*    background: antiquewhite;*/    
+    height: 100%;
+    width: 35%;
+}
+
+div#logo_login {
+    width: 50%;
+    padding-top: 15em;
+}
+
+#logo_login img {
+    width: 100%;
+}
+
+div#display_form_login {
+    background-color: rgba(255,255,255,0.4);
+    margin-top: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#display_form_login .container {
+    width: 80%;
+}
+
+  /* label color */
+   .input-field label {
+     color: #FFF;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label , .input-field input[type=email]:focus + label {
+     color: #FFF;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus, .input-field input[type=email]:focus {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* valid color */
+   .input-field input[type=text].valid, .input-field input[type=email].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid, .input-field input[type=email].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #FFF;
+   }
+
+/* label focus color */
+ #display_form_login .input-field input[type=password]:focus + label {
+     color: #FFF;
+   }
+   /* label underline focus color */
+#display_form_login .input-field input[type=password]:focus {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+
+#display_form_login input {
+    border-color: white;
+}
+
+i.material-icons.prefix {
+    color: white;
+}
+div#display_form_login:hover {
+    background-color: rgba(255,255,255,0.60);
+    transition: 1s;
+}
+
+.logo {
+  width: 100%;
+}
+
+a.brand-logo {
+    width: 3.8em;
+}
+
+#nav_bug_tracker a { 
+   color: black!important;
+}
+
+#home_bug_tracker {
+  width: 95%;
+}
+
+.display_card {
+    padding: 0;
+}
+
+.display_card {
+    margin: 1%;
+    width: 31.3%;
+}
+
+div#home_bug_tracker {
+    padding-top: 2%;
+}
+
+.home_options .col.s12 {
+
+  padding: 2%;
+}
+
+.display_table {
+        overflow: auto;
+    height: 145px;
+    margin: 0% 0% 5% 0%;
+    display: block;
+    width: 100%;
+}
+#card-form {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.card-header {
+    margin: 3%;
+}
+
+#display_button_form {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 7%;
+    margin-top: 24px;
+}
+
+.display_comments {
+    overflow: auto;
+    height: 400px;
+}
+
+.card-custom {
+    width: 240px!important;
+    padding: 0!important;
+}
+
+.display_content_card_projet {
+    width: 400%;
+}
+
+.content_card_projet {
+    overflow: auto;
+}
+
+.equipes {
+    background-color: #3949AB!important;
+    border-bottom: none; 
+    color: white!important;
+}
+
+.bouton_add_user {
+    position: absolute!important;
+    top: 9%!important;
+    right: 7%!important;
+    background: #c51162!important;
+}
+
+#tableau {
+    width: 100%!important;
+    overflow: auto!important;
+}
