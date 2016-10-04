@@ -11,9 +11,9 @@ try {
     if ($monUrl == "localhost")
     {
         //Identifiant serveur du mac
-        $dns = 'mysql:host=localhost;dbname=camara';
+        $dns = 'mysql:host=localhost;dbname=colin';
         $utilisateur = 'root';
-        $motDePasse = "root";
+        $motDePasse = "localhost";
     } else {
         //Identifiant serveur EEMI
         $dns = 'mysql:host=localhost;dbname=colin';
