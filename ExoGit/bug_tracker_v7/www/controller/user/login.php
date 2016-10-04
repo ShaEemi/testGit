@@ -9,7 +9,7 @@
 		//var_dump($_POST);
 
 		$form = $_POST;
-		$form['password'] = md5($form['password']);
+		$form['password'] = $form['password'];
 
 		//var_dump($form);
 
