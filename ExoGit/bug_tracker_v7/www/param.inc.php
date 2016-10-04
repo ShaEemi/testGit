@@ -7,7 +7,7 @@ try {
 
     //echo $monUrl;
 
-    
+
     if ($monUrl == "localhost")
     {
         //Identifiant serveur du mac
